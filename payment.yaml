@@ -11,7 +11,7 @@
     - gcc
     - python3-devel
 
-    - name: create system user roboshop
+  - name: create system user roboshop
     ansible.builtin.user:
       name: roboshop
       system: true
@@ -66,7 +66,7 @@
     ansible.builtin.service:
       name: restarted
       enabled: yes
-      
+
 
 
   
